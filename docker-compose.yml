@@ -23,7 +23,7 @@ services:
     command: -- --dev=reload
     volumes:
       - odoo-web-data:/var/lib/odoo
-      - ./addons:/mnt/extra-addons
+      - ./addons:/mnt
       - ./etc:/etc/odoo
     restart: always 
 
